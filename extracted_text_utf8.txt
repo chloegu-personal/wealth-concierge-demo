@@ -1,0 +1,167 @@
+--- Slide 1 ---
+Dr. Chloe Gu 
+College of Computing and Data Science
+Nanyang Technological University
+chloe.gu@ntu.edu.sg
+
+Smarter MVP: Leveraging AI for Rapid Prototyping
+
+--- Slide 2 ---
+Why Discuss AI in Product Management
+
+--- Slide 3 ---
+Key Focus Areas
+AI for Rapid Prototyping​
+AI tools accelerate product development by enabling quick creation of MVPs and fostering experimentation
+AI for Strategic Foresight​
+AI-driven analytics help anticipate market trends and predict customer behavior for proactive strategy decisions
+
+
+
+
+--- Slide 4 ---
+Overview
+AI for Rapid Prototyping
+AI Code Generation Fundamentals
+The Future of Agentic AI
+Live Demo: Wealth Concierge Personal Finance Dashboard
+
+
+--- Slide 5 ---
+Traditional Approach vs. AI-Powered Approach
+
+--- Slide 6 ---
+Breaking Down Silos
+
+--- Slide 7 ---
+Fail Fast, Fail Often
+Real-world impact means personalized experiences (rapid A/B testing), resource optimization, market responsiveness, and innovation leadership—all achieved by testing bold ideas without heavy initial investment.
+
+--- Slide 8 ---
+Overview
+AI for Rapid Prototyping
+AI Code Generation Fundamentals
+The Future of Agentic AI
+Live Demo: Wealth Concierge Personal Finance Dashboard
+
+
+--- Slide 9 ---
+The Mechanics of AI Code Generation
+Example
+You: "Create a responsive login form with email validation"
+AI: Generates HTML, CSS, JavaScript with the necessary validation logic.
+
+--- Slide 10 ---
+The Vibe Coding Landscape 2025
+From Idea to App in Natural Language
+
+--- Slide 11 ---
+How Agentic AI Actually Works
+
+--- Slide 12 ---
+Overview
+AI for Rapid Prototyping
+AI Code Generation Fundamentals
+The Future of Agentic AI
+Live Demo: Wealth Concierge Personal Finance Dashboard
+
+
+--- Slide 13 ---
+The Division of labour: Brain vs. Bone Architecture
+
+--- Slide 14 ---
+The Human as the Orchestra Conductor
+
+--- Slide 15 ---
+The Golden Rule: The 70/30 Split
+
+--- Slide 16 ---
+Letting AI handle the Commoditized 70%
+Generative AI excels at giving PMs a massive head-start on these table-stakes (baseline) features
+
+--- Slide 17 ---
+Fiercely Protecting the Critical 30%
+Engineering reviews and domain expertise are essential to avoid costly refactoring and long-term maintainability issues down the line
+
+--- Slide 18 ---
+AI-Generated Code is a First Draft
+The Security Gaps AI Leaves Behind
+
+--- Slide 19 ---
+Five Non-Negotiable Security Checks
+Turing AI velocity into sustainable, risk-controlled innovation
+
+--- Slide 20 ---
+Navigating the Ethical Guardrails
+
+--- Slide 21 ---
+Catalyst for Action
+Bring these questions to your next team standup
+
+--- Slide 22 ---
+Overview
+AI for Rapid Prototyping
+AI Code Generation Fundamentals
+The Future of Agentic AI
+Live Demo: Wealth Concierge Personal Finance Dashboard
+
+
+--- Slide 23 ---
+Live Demo: Wealth Concierge Personal Finance Dashboard
+Project Specs
+• Modern landing page with hero section & interactive charts
+• REST API for financial data & PostgreSQL database schema
+• Real-time currency exchange integration
+
+The Metric that Matters
+• Tool used: Antigravity (Google's agentic AI platform)
+• Time to build: ~20 minutes (vs. 2-3 weeks traditionally)
+
+--- Slide 24 ---
+Anatomy of a Perfect Prompt: The Fintech UI
+Key Insight: Explicitly mentioning specific libraries (Chart.js), color codes, and layout constraints guarantees production-ready UI rather than generic wireframes.
+
+--- Slide 25 ---
+Anatomy of a Perfect Prompt: Backend & Architecture
+Key Insight: Listing specific architectural constrains (UUIDs, caching, normalization) forces the AI to output robust, scalable backend code instead of fragile scripts.
+
+--- Slide 26 ---
+What to Watch For During the Demo
+NANYANG TECHNOLOGICAL UNIVERSITY | COLLEGE OF COMPUTING AND DATA SCIENCE
+MVP Thinking
+Notice the strict focus on essential features for validation, balancing speed and quality.
+
+--- Slide 27 ---
+The Iteration Workflow in Practice
+NANYANG TECHNOLOGICAL UNIVERSITY | COLLEGE OF COMPUTING AND DATA SCIENCE
+
+--- Slide 28 ---
+Ensuring Best Practices are Built-in
+
+--- Slide 29 ---
+Access the Demo Code Repository
+All code generated during today's demo is fully open and available to explore.
+
+fintrack-mvp/
+├── frontend/ (landing.html, dashboard.html)
+├── backend/ (app.py, requirements.txt)
+└── database/ (schema.sql)
+
+Scan to view GitHub Repository
+
+--- Slide 30 ---
+References
+Official Documentation:
+https://platform.openai.com/docs
+https://ai.google.dev/
+https://github.com/features/copilot
+https://deepmind.google/technologies/
+https://www.promptingguide.ai/
+https://github.blog/tag/github-copilot/
+Research Papers
+GitHub report reveals the impact of AI on software development | DailyAI
+Prompt Engineering for AI Guide | Google Cloud
+Demo Sample Prompts
+file:///sample_prompts.md
+
+
