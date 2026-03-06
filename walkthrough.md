@@ -40,7 +40,7 @@ fintrack-mvp/
    python app.py
    ```
 2. **Frontend**:
-   Open [frontend/landing.html](file:///c:/Users/chloe.gu/.gemini/antigravity/scratch/SC4025/W8%20-%20Rapid%20MVP/frontend/landing.html) in your browser.
+   Open [frontend/landing.html](frontend/landing.html) in your browser.
 
 ## Proof of Work
 ### Repository Initialization
