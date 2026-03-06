@@ -44,7 +44,7 @@ fintrack-mvp/
 
 ## Proof of Work
 ### Repository Initialization
-![Git Status](file:///c:/Users/chloe.gu/.gemini/antigravity/scratch/SC4025/W8%20-%20Rapid%20MVP/github_repo_qr.png)
+![Git Status](github_repo_qr.png)
 *(Note: QR Code points to the intended GitHub repository flow)*
 
 ---
