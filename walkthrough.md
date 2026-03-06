@@ -15,7 +15,7 @@
 ## Final Repository Structure
 The project is organized exactly as specified on Slide 29:
 ```text
-fintrack-mvp/
+wealth-concierge-demo/
 ├── frontend/
 │   ├── landing.html
 │   ├── dashboard.html
@@ -30,7 +30,7 @@ fintrack-mvp/
 
 ## Deployment Status
 - **Git**: Local repository initialized and all changes committed.
-- **Repository Name**: Assigned as `fintrack-mvp`.
+- **Repository Name**: Assigned as `wealth-concierge-demo`.
 
 ### How to Run Locally
 1. **Backend**:
