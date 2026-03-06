@@ -5,9 +5,17 @@ Nanyang Technological University
 chloe.gu@ntu.edu.sg
 
 Smarter MVP: Leveraging AI for Rapid Prototyping
+--- Notes ---
+Objectives:- Understand AI code generation capabilities- Learn prompt engineering for MVPs- Build a fintech product prototype with Antigravity
 
 --- Slide 2 ---
 Why Discuss AI in Product Management
+--- Notes ---
+Why discuss AI in PM?
+AI is reshaping product lifecycles: From ideation to delivery, AI accelerates decision-making and execution. 
+Competitive advantage: Teams leveraging AI gain speed, precision, and foresight. 
+Customer-centric innovation: AI enables rapid validation of ideas and personalization at scale.
+
 
 --- Slide 3 ---
 Key Focus Areas
@@ -50,6 +58,9 @@ The Mechanics of AI Code Generation
 Example
 You: "Create a responsive login form with email validation"
 AI: Generates HTML, CSS, JavaScript with the necessary validation logic.
+--- Notes ---
+Vibe coding
+Agentic AI
 
 --- Slide 10 ---
 The Vibe Coding Landscape 2025
@@ -57,6 +68,13 @@ From Idea to App in Natural Language
 
 --- Slide 11 ---
 How Agentic AI Actually Works
+--- Notes ---
+1. Intent Understanding: Extracts requirements from plain English.
+2. Context Assembly: Gathers design tokens and existing components.
+3. Code Generation: Generates production-quality React/TypeScript components.
+4. Validation & Testing: Automated checks for accessibility and responsive behavior.
+5. Human-in-the-Loop: Engineers review, refine, and provide feedback.
+
 
 --- Slide 12 ---
 Overview
@@ -68,6 +86,19 @@ Live Demo: Wealth Concierge Personal Finance Dashboard
 
 --- Slide 13 ---
 The Division of labour: Brain vs. Bone Architecture
+--- Notes ---
+BRAIN (Intelligent Core - Handled by Humans)
+• User experience & logic
+• Innovation and dynamic processes
+• User behaviour adaptation
+• Analytics and strategic foresight
+
+BONES (The Framework - Handled by AI)
+• App skeleton & structure
+• UI layout and wireframes
+• Navigation flow
+• Functional components and content architecture
+
 
 --- Slide 14 ---
 The Human as the Orchestra Conductor
@@ -164,4 +195,9 @@ Prompt Engineering for AI Guide | Google Cloud
 Demo Sample Prompts
 file:///sample_prompts.md
 
+--- Notes ---
+
+1. https://www.nngroup.com/articles/user-journey-mapping/
+2. https://www.interaction-design.org/literature/topics/personas
+3. https://jtbd.info/
 

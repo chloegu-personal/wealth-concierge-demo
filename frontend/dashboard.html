@@ -3,23 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wealth Concierge | Exclusive Financial Dashboard</title>
+    <title>Wealth Concierge | Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <!-- Landing Page Hero -->
-    <section id="landing" class="hero">
-        <div class="glass-panel" style="max-width: 800px;">
-            <h1>Wealth Concierge</h1>
-            <p>Experience the future of personal wealth management. AI-driven insights, real-time portfolio tracking, and exclusive concierge services at your fingertips.</p>
-            <button class="cta-button" onclick="showDashboard()">Enter Private Dashboard</button>
-        </div>
-    </section>
-
-    <!-- Dashboard Section (Hidden by default) -->
-    <section id="dashboard" class="dashboard-container" style="display: none;">
+    <section id="dashboard" class="dashboard-container">
         <header style="margin-bottom: 30px; display: flex; justify-content: space-between; align-items: center;">
             <h2 style="font-size: 2rem; color: var(--gold);">Wealth Overview</h2>
             <div id="date-display" style="color: #94a3b8;"></div>
@@ -28,15 +18,15 @@
         <div class="header-stats">
             <div class="glass-panel stat-card">
                 <h3>Total Net Worth</h3>
-                <div class="value" id="total-balance">$0.00</div>
+                <div class="value" id="total-balance">$0</div>
             </div>
             <div class="glass-panel stat-card">
                 <h3>Monthly Revenue</h3>
-                <div class="value" id="monthly-income" style="color: #10b981;">$0.00</div>
+                <div class="value" id="monthly-income" style="color: #10b981;">$0</div>
             </div>
             <div class="glass-panel stat-card">
                 <h3>Monthly Outflow</h3>
-                <div class="value" id="monthly-expenses" style="color: #ef4444;">$0.00</div>
+                <div class="value" id="monthly-expenses" style="color: #ef4444;">$0</div>
             </div>
             <div class="glass-panel stat-card">
                 <h3>Portfolio Growth</h3>
@@ -45,9 +35,11 @@
         </div>
 
         <div class="charts-grid">
-            <div class="glass-panel">
+            <div class="glass-panel" style="min-height: 400px;">
                 <h3 style="margin-bottom: 20px;">Asset Allocation</h3>
-                <canvas id="portfolioChart"></canvas>
+                <div style="position: relative; height: 300px;">
+                    <canvas id="portfolioChart"></canvas>
+                </div>
             </div>
             <div class="glass-panel">
                 <h3 style="margin-bottom: 20px;">Wealth Concierge Tips</h3>
@@ -83,5 +75,14 @@
     </section>
 
     <script src="script.js"></script>
+    <script>
+        // Auto-load data on dashboard page
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('date-display').textContent = new Date().toLocaleDateString('en-US', {
+                weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+            });
+            fetchDashboardData();
+        });
+    </script>
 </body>
 </html>
