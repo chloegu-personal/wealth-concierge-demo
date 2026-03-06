@@ -15,7 +15,11 @@
 ## Final Repository Structure
 The project is organized exactly as specified on Slide 29:
 ```text
+<<<<<<< HEAD
 wealth-concierge-demo/
+=======
+wealth-conciege-demo/
+>>>>>>> 46aac3b9e7ff7403b02affaf42e4622233ecd57d
 ├── frontend/
 │   ├── landing.html
 │   ├── dashboard.html
@@ -30,7 +34,11 @@ wealth-concierge-demo/
 
 ## Deployment Status
 - **Git**: Local repository initialized and all changes committed.
+<<<<<<< HEAD
 - **Repository Name**: Assigned as `wealth-concierge-demo`.
+=======
+- **Repository Name**: Assigned as `wealth-conceige-demo`.
+>>>>>>> 46aac3b9e7ff7403b02affaf42e4622233ecd57d
 
 ### How to Run Locally
 1. **Backend**:
